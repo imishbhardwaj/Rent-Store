@@ -1,0 +1,36 @@
+.GALLERY{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.GALLERY-COL{
+	flex-basis: 32%;
+	margin-bottom: 30px;
+	min-width:250px;
+}
+.GALLERY-COL img{
+	width: 100%;
+}	
+.small-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.GALLERY-COL{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	transition: transform 0.5s;
+}
+.GALLERY-COL img{
+	width: 100%;
+}
+.GALLERY-COL p{
+	font-size: 14px;
+}
+.GALLERY-COL:hover{
+	transform: translateY(-5px);
+}
